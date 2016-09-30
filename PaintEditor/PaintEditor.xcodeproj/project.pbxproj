@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D476CFBD1D9E5AD8006ED83D /* Redo.png in Resources */ = {isa = PBXBuildFile; fileRef = D476CFB81D9E5AD8006ED83D /* Redo.png */; };
+		D476CFBE1D9E5AD8006ED83D /* Undo.png in Resources */ = {isa = PBXBuildFile; fileRef = D476CFB91D9E5AD8006ED83D /* Undo.png */; };
+		D476CFBF1D9E5AD8006ED83D /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = D476CFBA1D9E5AD8006ED83D /* Save.png */; };
+		D476CFC01D9E5AD8006ED83D /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D476CFBB1D9E5AD8006ED83D /* Setting.png */; };
+		D476CFC11D9E5AD8006ED83D /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D476CFBC1D9E5AD8006ED83D /* Clear.png */; };
+		D492896B1D9D08530061EBA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D492896A1D9D08530061EBA4 /* main.m */; };
+		D492896E1D9D08530061EBA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D492896D1D9D08530061EBA4 /* AppDelegate.m */; };
+		D49289711D9D08530061EBA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49289701D9D08530061EBA4 /* ViewController.m */; };
+		D49289741D9D08530061EBA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49289721D9D08530061EBA4 /* Main.storyboard */; };
+		D49289771D9D08530061EBA4 /* PaintEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D49289751D9D08530061EBA4 /* PaintEditor.xcdatamodeld */; };
+		D49289791D9D08540061EBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49289781D9D08540061EBA4 /* Assets.xcassets */; };
+		D492897C1D9D08540061EBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D492897A1D9D08540061EBA4 /* LaunchScreen.storyboard */; };
+		D49289871D9D08540061EBA4 /* PaintEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49289861D9D08540061EBA4 /* PaintEditorTests.m */; };
+		D49289921D9D08540061EBA4 /* PaintEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49289911D9D08540061EBA4 /* PaintEditorUITests.m */; };
+		D49289A01D9D08980061EBA4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492899F1D9D08980061EBA4 /* MessageUI.framework */; };
+		D49289A31D9D08C50061EBA4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49289A21D9D08C50061EBA4 /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49289831D9D08540061EBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D492895E1D9D08520061EBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49289651D9D08530061EBA4;
+			remoteInfo = PaintEditor;
+		};
+		D492898E1D9D08540061EBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D492895E1D9D08520061EBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49289651D9D08530061EBA4;
+			remoteInfo = PaintEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D476CFB81D9E5AD8006ED83D /* Redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Redo.png; sourceTree = "<group>"; };
+		D476CFB91D9E5AD8006ED83D /* Undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undo.png; sourceTree = "<group>"; };
+		D476CFBA1D9E5AD8006ED83D /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
+		D476CFBB1D9E5AD8006ED83D /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		D476CFBC1D9E5AD8006ED83D /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		D49289661D9D08530061EBA4 /* PaintEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D492896A1D9D08530061EBA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D492896C1D9D08530061EBA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D492896D1D9D08530061EBA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D492896F1D9D08530061EBA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D49289701D9D08530061EBA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D49289731D9D08530061EBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D49289761D9D08530061EBA4 /* PaintEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintEditor.xcdatamodel; sourceTree = "<group>"; };
+		D49289781D9D08540061EBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D492897B1D9D08540061EBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D492897D1D9D08540061EBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49289821D9D08540061EBA4 /* PaintEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49289861D9D08540061EBA4 /* PaintEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintEditorTests.m; sourceTree = "<group>"; };
+		D49289881D9D08540061EBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D492898D1D9D08540061EBA4 /* PaintEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49289911D9D08540061EBA4 /* PaintEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintEditorUITests.m; sourceTree = "<group>"; };
+		D49289931D9D08540061EBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D492899F1D9D08980061EBA4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D49289A11D9D08C50061EBA4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D49289A21D9D08C50061EBA4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SettingsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49289631D9D08530061EBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49289A01D9D08980061EBA4 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492897F1D9D08540061EBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492898A1D9D08540061EBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D492895D1D9D08520061EBA4 = {
+			isa = PBXGroup;
+			children = (
+				D492899F1D9D08980061EBA4 /* MessageUI.framework */,
+				D49289681D9D08530061EBA4 /* PaintEditor */,
+				D49289851D9D08540061EBA4 /* PaintEditorTests */,
+				D49289901D9D08540061EBA4 /* PaintEditorUITests */,
+				D49289671D9D08530061EBA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49289671D9D08530061EBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49289661D9D08530061EBA4 /* PaintEditor.app */,
+				D49289821D9D08540061EBA4 /* PaintEditorTests.xctest */,
+				D492898D1D9D08540061EBA4 /* PaintEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49289681D9D08530061EBA4 /* PaintEditor */ = {
+			isa = PBXGroup;
+			children = (
+				D492896C1D9D08530061EBA4 /* AppDelegate.h */,
+				D492896D1D9D08530061EBA4 /* AppDelegate.m */,
+				D492896F1D9D08530061EBA4 /* ViewController.h */,
+				D49289701D9D08530061EBA4 /* ViewController.m */,
+				D49289A11D9D08C50061EBA4 /* SettingsViewController.h */,
+				D49289A21D9D08C50061EBA4 /* SettingsViewController.m */,
+				D49289721D9D08530061EBA4 /* Main.storyboard */,
+				D49289781D9D08540061EBA4 /* Assets.xcassets */,
+				D492897A1D9D08540061EBA4 /* LaunchScreen.storyboard */,
+				D492897D1D9D08540061EBA4 /* Info.plist */,
+				D49289751D9D08530061EBA4 /* PaintEditor.xcdatamodeld */,
+				D49289691D9D08530061EBA4 /* Supporting Files */,
+				D476CFB81D9E5AD8006ED83D /* Redo.png */,
+				D476CFB91D9E5AD8006ED83D /* Undo.png */,
+				D476CFBA1D9E5AD8006ED83D /* Save.png */,
+				D476CFBB1D9E5AD8006ED83D /* Setting.png */,
+				D476CFBC1D9E5AD8006ED83D /* Clear.png */,
+			);
+			path = PaintEditor;
+			sourceTree = "<group>";
+		};
+		D49289691D9D08530061EBA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D492896A1D9D08530061EBA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D49289851D9D08540061EBA4 /* PaintEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D49289861D9D08540061EBA4 /* PaintEditorTests.m */,
+				D49289881D9D08540061EBA4 /* Info.plist */,
+			);
+			path = PaintEditorTests;
+			sourceTree = "<group>";
+		};
+		D49289901D9D08540061EBA4 /* PaintEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D49289911D9D08540061EBA4 /* PaintEditorUITests.m */,
+				D49289931D9D08540061EBA4 /* Info.plist */,
+			);
+			path = PaintEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49289651D9D08530061EBA4 /* PaintEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49289961D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditor" */;
+			buildPhases = (
+				D49289621D9D08530061EBA4 /* Sources */,
+				D49289631D9D08530061EBA4 /* Frameworks */,
+				D49289641D9D08530061EBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintEditor;
+			productName = PaintEditor;
+			productReference = D49289661D9D08530061EBA4 /* PaintEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49289811D9D08540061EBA4 /* PaintEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49289991D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditorTests" */;
+			buildPhases = (
+				D492897E1D9D08540061EBA4 /* Sources */,
+				D492897F1D9D08540061EBA4 /* Frameworks */,
+				D49289801D9D08540061EBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49289841D9D08540061EBA4 /* PBXTargetDependency */,
+			);
+			name = PaintEditorTests;
+			productName = PaintEditorTests;
+			productReference = D49289821D9D08540061EBA4 /* PaintEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D492898C1D9D08540061EBA4 /* PaintEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D492899C1D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditorUITests" */;
+			buildPhases = (
+				D49289891D9D08540061EBA4 /* Sources */,
+				D492898A1D9D08540061EBA4 /* Frameworks */,
+				D492898B1D9D08540061EBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D492898F1D9D08540061EBA4 /* PBXTargetDependency */,
+			);
+			name = PaintEditorUITests;
+			productName = PaintEditorUITests;
+			productReference = D492898D1D9D08540061EBA4 /* PaintEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D492895E1D9D08520061EBA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GadgetZone;
+				TargetAttributes = {
+					D49289651D9D08530061EBA4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D49289811D9D08540061EBA4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D49289651D9D08530061EBA4;
+					};
+					D492898C1D9D08540061EBA4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D49289651D9D08530061EBA4;
+					};
+				};
+			};
+			buildConfigurationList = D49289611D9D08520061EBA4 /* Build configuration list for PBXProject "PaintEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D492895D1D9D08520061EBA4;
+			productRefGroup = D49289671D9D08530061EBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49289651D9D08530061EBA4 /* PaintEditor */,
+				D49289811D9D08540061EBA4 /* PaintEditorTests */,
+				D492898C1D9D08540061EBA4 /* PaintEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49289641D9D08530061EBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D476CFC01D9E5AD8006ED83D /* Setting.png in Resources */,
+				D492897C1D9D08540061EBA4 /* LaunchScreen.storyboard in Resources */,
+				D476CFBD1D9E5AD8006ED83D /* Redo.png in Resources */,
+				D476CFC11D9E5AD8006ED83D /* Clear.png in Resources */,
+				D476CFBF1D9E5AD8006ED83D /* Save.png in Resources */,
+				D49289791D9D08540061EBA4 /* Assets.xcassets in Resources */,
+				D49289741D9D08530061EBA4 /* Main.storyboard in Resources */,
+				D476CFBE1D9E5AD8006ED83D /* Undo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49289801D9D08540061EBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492898B1D9D08540061EBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49289621D9D08530061EBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49289711D9D08530061EBA4 /* ViewController.m in Sources */,
+				D492896E1D9D08530061EBA4 /* AppDelegate.m in Sources */,
+				D49289A31D9D08C50061EBA4 /* SettingsViewController.m in Sources */,
+				D492896B1D9D08530061EBA4 /* main.m in Sources */,
+				D49289771D9D08530061EBA4 /* PaintEditor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492897E1D9D08540061EBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49289871D9D08540061EBA4 /* PaintEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49289891D9D08540061EBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49289921D9D08540061EBA4 /* PaintEditorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49289841D9D08540061EBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49289651D9D08530061EBA4 /* PaintEditor */;
+			targetProxy = D49289831D9D08540061EBA4 /* PBXContainerItemProxy */;
+		};
+		D492898F1D9D08540061EBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49289651D9D08530061EBA4 /* PaintEditor */;
+			targetProxy = D492898E1D9D08540061EBA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49289721D9D08530061EBA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49289731D9D08530061EBA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D492897A1D9D08540061EBA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D492897B1D9D08540061EBA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49289941D9D08540061EBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D49289951D9D08540061EBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49289971D9D08540061EBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PaintEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D49289981D9D08540061EBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PaintEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D492899A1D9D08540061EBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaintEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintEditor.app/PaintEditor";
+			};
+			name = Debug;
+		};
+		D492899B1D9D08540061EBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaintEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintEditor.app/PaintEditor";
+			};
+			name = Release;
+		};
+		D492899D1D9D08540061EBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaintEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaintEditor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D492899E1D9D08540061EBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaintEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaintEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaintEditor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49289611D9D08520061EBA4 /* Build configuration list for PBXProject "PaintEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49289941D9D08540061EBA4 /* Debug */,
+				D49289951D9D08540061EBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49289961D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49289971D9D08540061EBA4 /* Debug */,
+				D49289981D9D08540061EBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49289991D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D492899A1D9D08540061EBA4 /* Debug */,
+				D492899B1D9D08540061EBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D492899C1D9D08540061EBA4 /* Build configuration list for PBXNativeTarget "PaintEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D492899D1D9D08540061EBA4 /* Debug */,
+				D492899E1D9D08540061EBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D49289751D9D08530061EBA4 /* PaintEditor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D49289761D9D08530061EBA4 /* PaintEditor.xcdatamodel */,
+			);
+			currentVersion = D49289761D9D08530061EBA4 /* PaintEditor.xcdatamodel */;
+			path = PaintEditor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D492895E1D9D08520061EBA4 /* Project object */;
+}
